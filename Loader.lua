@@ -82,7 +82,7 @@ end)
 Parvus.Game = GetGameInfo()
 LoadScript(Parvus.Game.Script)
 Parvus.Utilities.UI:Notification({
-    Title = "Parvus Hub",
+    Title = "Parvus Rework",
     Description = Parvus.Game.Name .. " loaded!",
     Duration = NotificationTime
 }) Parvus.Loaded = true
