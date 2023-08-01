@@ -6,7 +6,7 @@ local Workspace = game:GetService("Workspace")
 local Lighting = game:GetService("Lighting")
 
 if game.PlaceId == 2916899287 then
-    Parvus.Utilities.UI:Notification({Title = "Parvus Hub",Description = "Please join the game"})
+    Parvus.Utilities.UI:Notification({Title = "Parvus Rewok",Description = "Please join the game"})
     return
 end
 
@@ -56,7 +56,7 @@ local KnownBodyParts = {
 }
 
 local Window = Parvus.Utilities.UI:Window({
-    Name = ("Parvus Hub %s %s"):format(utf8.char(8212),Parvus.Game.Name)
+    Name = ("Parvus Rework %s %s"):format(utf8.char(8212),Parvus.Game.Name)
 }) do Window:Watermark({Enabled = true})
 
     local CombatTab = Window:Tab({Name = "Combat"}) do
